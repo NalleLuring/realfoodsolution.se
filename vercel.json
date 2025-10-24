@@ -1,0 +1,14 @@
+{
+  "cleanUrls": true,
+  "trailingSlash": false,
+  "redirects": [
+    {
+      "source": "/(.*)",
+      "has": [{ "type": "host", "value": "www.realfoodsolution.se" }],
+      "destination": "https://realfoodsolution.se/$1",
+      "permanent": true
+    }
+  ]
+}
+
+
